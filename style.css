@@ -15,11 +15,19 @@ body {
 
 /* HEADER */
 header {
-    color: greenyellow;
+    color: white;
     position: relative;
     padding: 2rem 0;
     text-align: center;
-    background-image: url(/img/ast.jpg);
+    background-image: url(/img/ast.jpg), url(/img/forno.jpg), url(/img/rotoli.jpg);
+    background-position: top left, center, top right;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 33.33% auto, 34% auto, 33.33% auto;
+}
+
+header h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 header p {
